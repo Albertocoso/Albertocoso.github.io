@@ -1,0 +1,12 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+#navbarNav {
+  justify-content: end;
+}
+
+.navbar a {
+  color: #ffffff;
+}

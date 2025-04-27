@@ -1,12 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.ico" />
+    <title>CV ALBERTO PERILLO</title>
 </head>
+
 <body>
-    <h1>Bienvenido a mi Portafolio</h1>
-    <p>Este es mi curriculum publicado con Git Hub Pages</p>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg fixed-top bg-info">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://albertocoso.github.io/">Alberto Perillo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resumen">Resumen</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#educacion">Educación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experiencia">Experiencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portafolio">Portafolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactame">Contactame</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- INICIO  Seccion resumen cv-->
+            <section class="mt-5 pt-5" id="resumen">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-thumbnail rounded" src="./assets/imgs/foto-perfil.jpeg"
+                            alt="foto de Alberto Perillo">
+                    </div>
+                    <div class="col-8">
+                        <h1 class="display-3 fw-bold my-3">Alberto Perillo</h1>
+                        <p id="resumencv">Cursante de Ingenieria Industrial con experiencia en diseño CAD, asi como
+                            operador CCTV.
+                            Después de emigrar a Chile en busca de mejores oportunidades, busco expandir mis
+                            conocimientos en el area de desarrollo web para incrementar mis espectativas laborales.
+                            Con intenciones de aprendisaje progresivo en el desarrollo web.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN  Seccion resumen cv-->
+            <!-- INICIO  Seccion MAS SOBRE MI-->
+            <section class="mt-5 pt-5">
+                <h2 class="display-5 fw-bold text-center  mb-3"> Educación</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card h-100">
+                            <div class="card-header bg-info">
+                                <strong> Datos Personales </strong>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Nombre:</strong> Alberto Jose Perillo Cardozo</li>
+                                <li class="list-group-item"> <strong>Fecha de Nacimiento:</strong> 28 de Febrero de 1995
+                                </li>
+                                <li class="list-group-item"><strong>Lugar de Nacimiento:</strong> Maracay,
+                                    Venezuela</li>
+                                <li class="list-group-item"><strong>Lugar de Residencia:</strong> Santiago, Chile</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="educacion" class="col-6">
+                        <div class="card h-100">
+                            <div class="card-header bg-info">
+                                <strong> Formación</strong>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Bachiller en Ciencias</strong><br>Colegio
+                                    Internacional Miguel Otero Silva - Venezuela</li>
+                                <li class="list-group-item"><strong>Ingenieria Industrial </strong><br>Universidad
+                                    Nacional Experimental de Guayana (UNEG) - Venezuela</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-center">
+                    <div id="experiencia" class="col-6">
+                        <div class="card h-100">
+                            <div class="card-header bg-info">
+                                <strong> Experiencia Laboral</strong>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><strong>Diseño CAD</strong> <br> Duracion 1 año</li>
+                                <li class="list-group-item"> <strong>Operador CCTV</strong><br> Duracion 1 año -
+                                    Actualidad</li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN  Seccion MAS SOBRE MI-->
+            <!-- INICIO  SecciON Proyectos-->
+            <section class="mt-5 pt-5" id="portafolio">
+                <h2 class="display-5 fw-bold text-center  mb-3"> Educación</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="./assets/imgs/Proyecto2.png" class="card-img-top" alt="imagen de proyecto web">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Pagina Web</h5>
+                                <p class="card-text">
+                                    Es una pagina enfocada en la venta de piezas de terreno en miniatura para juegos de
+                                    rol.
+                                    Aplicando solo HTML Y CSS.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="./assets/imgs/Proyecto1.jpeg" class="card-img-top" alt="imagen de proyecto web">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Pagina Web</h5>
+                                <p class="card-text">
+                                    Una guia informativa sobre Iguanas, aplicando HTML,CSS Y FLEXBOX.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card h-100">
+                            <img src="./assets/imgs/Proyecto3.jpeg" class="card-img-top" alt="imagen de proyecto web">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Pagina Web</h5>
+                                <p class="card-text">
+                                    Una pagina web con distintos cupones de descuento para productos de diferentes
+                                    variedades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN  SecciON Proyectos-->
+            <!-- Inicio Seccion Contacto-->
+            <section id="contactame">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+                        <div class="card mb-3" >
+                            <div class="card-body">
+                                <p class="text-center my-4 d-none d-md-block">
+                                    Me puedes contactar para comunicarnos.
+                                </p>
+                                <form>
+                                    <div class="form-group mb-4">
+                                        <label class="mb-2">Nombre</label>
+                                        <input class="form-control" placeholder="Nombre" />
+                                    </div>
+                                    <div class="form-group mb-4">
+                                        <label class="mb-2">Correo electrónico</label>
+                                        <input class="form-control" placeholder="Correo electrónico" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-2">Mensaje</label>
+                                        <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                                    </div>
+                                    <div class="my-3 text-end">
+                                        <button class="btn btn-info">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- FIN Seccion Contacto-->
+        </div>
+
+
+    </main>
+    <!-- Inicio FOOTER-->
+    <footer class="bg-info text-center text-light p-4">
+        <p class="mb-0"> <i class="fa-regular fa-copyright"></i> Alberto Perillo 2025. Todos los derechos
+            reservados.</p>
+    </footer>
+    <!-- FIN FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c394c3695a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
